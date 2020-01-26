@@ -16,6 +16,8 @@ message => print
 "hello world" => message
 ```
 
+The potential advantages of this approach go beyond funny esoteric source code ordering and range from spreadsheets like ergonomics to distributed computing.
+
 Both will work because Pump code will be compiled to a graph and not to a sequence of instructions.
 
 We are starting with a Java prototype, the plan with this prototype is to refine the VM so it has an algorhytm-like simplicity; therefore easy to implement in any language.
