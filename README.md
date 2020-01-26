@@ -5,13 +5,16 @@ The first goal is to make a virtual machine that operates on directed graphs (as
 
 In Pump you could write:
 
+```
 "hello world" => message
 message => print
-
+```
 or 
 
+```
 message => print
 "hello world" => message
+```
 
 Both will work because Pump code will be compiled to a graph and not to a sequence of instructions.
 
