@@ -5,6 +5,10 @@ public class TickSequence {
     int seq = TICKSEQ_START;
     boolean restarted = false;
 
+    public int current(){
+        return seq;
+    }
+
     public int next(){
         int tickNumber = seq;
         seq++;
