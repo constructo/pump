@@ -1,8 +1,13 @@
-package run;
+package machine;
 
 public class Msg {
     private int source;
     private Object data;
+    int flags;
+
+    public Msg(Object data, int flags){
+        this.flags = flags;
+    }
 
     public Msg(int source, Object data){
         this.source = source;

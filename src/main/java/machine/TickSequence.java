@@ -1,5 +1,6 @@
-package run;
+package machine;
 
+// TODO: make TickeSequence self-contained.. itself storing current tickId ?.
 public class TickSequence {
     public static int TICKSEQ_START = 0;
     int seq = TICKSEQ_START;
