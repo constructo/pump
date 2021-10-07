@@ -11,5 +11,5 @@ Highlights:
 
 Roadmap:
 - Prototypal Java Pump compiler and PumpVM.
-- Language spec (why not first? there is going to be some corner-rounding during the prototype development.
+- Language spec (why not first? there is going to be some corner-rounding during the prototype development).
 - PumpWeb: abstraction layer on websockets to develop dataflow-based backends.
