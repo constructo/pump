@@ -5,7 +5,7 @@ Why is it called Pump? its sort of a pun/reference to the PUSH instruction which
 Highlights:
 - Null is not a value so there is no such thing as "null pointer exception". Null is a signal transparent to the programmer and the presence/abscence of data is a semantic part of  flow mechanics (another reason why its called Pump). Simply put, an expression is not executed if any of its operands is the null signal.
 - Pump itself is the textual scripting language compiled to a directed graph that PumpVM executes; so that visual dataflow nocode tools could be created for the PumpVM.
-- Continuation interrupts allows Pump to create domain specific abstraction layers over asynchronous flows. With this feature a program can be frozen, even serialized/deserialized and resumed when some context data becomes available.
+- Continuation interrupts allows Pump to create domain specific abstraction layers over asynchronous flows. With this feature a program can be frozen, even serialized/deserialized and resumed when custom context logic resolves that it can be resumed.
 - Embedding/Sandboxing capabilities are part of the design; no tight-coupling to system calls and the ability to restrict execution opens the possibility of online development environments.
 - Loose coupling to its core including dependency management so that simulation and testing are seamless.
 
