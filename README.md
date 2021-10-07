@@ -1,4 +1,4 @@
-Pump is a modern take on the dataflow programming paradigm. A Pump program is rendered to a directed graph that determines how the data will be routed through the connected operators; thus Pump totally forsakes both imperativity and sequentiality and enables reasoning about programs as diagrams.
+Pump is a modern take on the dataflow programming paradigm. A Pump program is rendered to a directed graph that determines how the data will be routed through the connected operators; thus Pump totally forsakes both imperativity and sequentiality so that programs behave in a homo-diagramatic way.
 
 Why is it called Pump? its sort of a pun/reference to the PUSH instruction which deals with one single stack/thread of execution while PUMP concurrently routes data through the various flow of a  program in a single tick.
 
